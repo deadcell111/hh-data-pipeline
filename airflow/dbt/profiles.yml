@@ -1,0 +1,12 @@
+hh_warehouse:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: hh_postgres
+      port: 5432
+      user: postgres
+      password: "{{ env_var('HH_POSTGRES_PASSWORD') }}"
+      dbname: hh_db
+      schema: staging
+      threads: 4

@@ -1,0 +1,20 @@
+# secrets
+.env
+airflow/.env
+
+# pipeline output (reproducible via fetch.py)
+data/
+
+# generated / ephemeral
+logs/
+airflow/logs/
+dbt/logs/
+dbt/hh_warehouse/target/
+dbt/hh_warehouse/dbt_packages/
+
+# OS junk
+.DS_Store
+
+# python
+__pycache__/
+*.pyc
