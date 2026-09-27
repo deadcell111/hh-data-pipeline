@@ -85,6 +85,7 @@ First run: unpause the `hh_pipeline` DAG (starts paused by default) and trigger 
 
 ## Dashboard
 
-![Metabase dashboard](docs/dashboard.png)
+![Top employers by vacancy count](docs/top_employers.png)
+![Vacancy trends by week](docs/vacancy_trends.png)
 
-Built on the `marts` tables — average salary by skill, vacancy volume by experience level, top employers by posting count, and weekly posting trends.
+Built on the `marts` tables — `top_employers` and `vacancy_trends_by_week` shown above, alongside `avg_salary_by_skill` and `vacancy_counts_by_experience`.
